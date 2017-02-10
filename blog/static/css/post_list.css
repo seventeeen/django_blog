@@ -1,3 +1,32 @@
-* {
-    color: red;
+html {
+    font-size: 14px;
+    background-color: #1B1B1B;
+    color:#F8F8FF;
+}
+
+.box-flex {
+    display: flex;
+}
+
+.flex-middle {
+    justify-content: center;
+    align-items: center;
+}
+
+.click-obj {
+    cursor: pointer;
+    transition-duration: .5s;
+}
+
+.click-obj:hover {
+    background-color: #F8F8FF;
+    color: #1B1B1B;
+}
+
+.post-container {
+    width: 15rem;
+    padding: 1rem;
+    border: 1px solid gainsboro;
+    border-radius: 1.5rem;
+    margin: 1rem;
 }
